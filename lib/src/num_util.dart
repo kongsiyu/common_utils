@@ -131,7 +131,7 @@ class NumUtil {
 
   /// 除
   static Decimal divideDecStr(String a, String b) {
-    return Decimal.parse(a) / Decimal.parse(b);
+    return (Decimal.parse(a) / Decimal.parse(b)).toDecimal();
   }
 
   /// 余数
